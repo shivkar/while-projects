@@ -5,15 +5,18 @@
  */
 package com.myproject.staypositive;
 
+import java.util.Scanner;
+
 /**
  *
  * @author SHIVALI
  */
 public class sp {public static void main(String[] args) {
-      System.out.println("Counting down..");
-      int i = 10;
-    while (i > -1) {
-      System.out.println(i);
+      int i = 59; String number;Scanner sk = new Scanner(System.in);
+      System.out.println("What number should I count down from?" );
+      number = sk.nextLine();
+     while (i > 0) {
+     System.out.println(i);
       i--;}
      System.out.println("Blast off");
 }}
