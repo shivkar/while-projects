@@ -5,8 +5,6 @@
  */
 package com.mycompany.guessme;
 
-import java.util.Scanner;
-
 /**
  *
  * @author SHIVALI 
@@ -14,8 +12,7 @@ import java.util.Scanner;
  */
 public class Guessme {public static void main(String[] args){ int number = 44; int choice = 44;
 
-   
-   
+  
     if ( choice <= number){System.out.println ( " I've chosen a number. Betcha can't guess it! ");}
     
     System.out.println(" Your guess: "+ choice);
